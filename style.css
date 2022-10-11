@@ -158,10 +158,16 @@ main {
 }
 
 .player--winner {
-  background-color: #2f2f2f;
+  background-color: #FFD700;
+  background-image: url("./images/WinnerBadge.png");
+  background-repeat: repeat-x;
 }
 
 .player--winner .name {
   font-weight: 700;
   color: #c7365f;
+}
+
+.hidden{
+  display: none;
 }
